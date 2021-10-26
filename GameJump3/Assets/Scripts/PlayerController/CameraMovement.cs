@@ -6,25 +6,26 @@ namespace playerController
 {
     public class CameraMovement : MonoBehaviour
     {
-        public float mouseSensitivity = 100f;
+        public float horizontalSpeed = 100f;
+        public float verticalSpeed = 100f;
 
-        public Transform player;
+        float h;
+        float v;
 
-        private float xRotation = 90f;
-        private void Start()
+        public void Start()
         {
             Cursor.lockState = CursorLockMode.Locked;
+            
         }
-        private void Update()
+        public void Update()
         {
-            float mouseY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
-            float m_X = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
+            h = Input.GetAxis("Mouse X") * horizontalSpeed * Time.deltaTime;
+            v = Input.GetAxis("Mouse Y") * horizontalSpeed * Time.deltaTime;
 
-            xRotation -= mouseY;
-            xRotation = Mathf.Clamp(xRotation, -90f, 90f);
-            transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
+            transform.Rotate(-v, h, 0);
 
-            player.Rotate(Vector3.up * m_X);
+            Quaternion rotation = Quaternion.Euler(90, 90, 0);
+            Debug.Log("hi");    
         }
     }
 }
