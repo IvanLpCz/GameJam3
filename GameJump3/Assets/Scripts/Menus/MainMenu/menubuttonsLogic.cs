@@ -1,18 +1,26 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
-public class menubuttonsLogic : MonoBehaviour
+namespace menubuttons
 {
-    // Start is called before the first frame update
-    void Start()
+    public class menubuttonsLogic : MonoBehaviour
     {
-        
-    }
+        public Button start, creddits, exit;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        public void StartGame()
+        {
+            SceneManager.LoadScene("LivingRoom");
+        }
+        public void CreditsScene()
+        {
+            SceneManager.LoadScene("CreditsScene");
+        }
+        public void ExitGame()
+        {
+            Application.Quit();
+        }
     }
 }
