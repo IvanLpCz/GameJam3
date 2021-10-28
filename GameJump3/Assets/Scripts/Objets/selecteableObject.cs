@@ -13,7 +13,10 @@ namespace Object
         }
         private void OnMouseDown()
         {
-            inspeccionableObject.SetActive(true);
+            if (Time.timeScale != 0)
+            {
+                inspeccionableObject.SetActive(true);
+            }           
         }
         private void OnMouseExit()
         {
