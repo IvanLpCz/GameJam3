@@ -23,6 +23,7 @@ namespace loops
             if (timer >=10)
             {
                 SceneManager.LoadScene(actualScene.name);
+                timer = 0;
             }
         }
     }

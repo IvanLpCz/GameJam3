@@ -15,6 +15,8 @@ namespace Object
         }
         private void Update()
         {
+            Time.timeScale = 0;
+
             if (Input.GetMouseButton(0))
             {
                 currenPos = Input.mousePosition;

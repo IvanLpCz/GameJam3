@@ -10,6 +10,7 @@ public class inspectionButtons : MonoBehaviour
 
     public void exitMenu()
     {
+        Time.timeScale = 1;
         inspectionMenu.SetActive(false);
     }
 }
