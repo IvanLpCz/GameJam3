@@ -16,7 +16,7 @@ namespace Object
             if (Time.timeScale != 0)
             {
                 inspeccionableObject.SetActive(true);
-            }           
+            }
         }
         private void OnMouseExit()
         {
