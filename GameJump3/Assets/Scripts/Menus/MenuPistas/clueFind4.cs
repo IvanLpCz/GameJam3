@@ -4,12 +4,12 @@ using UnityEngine;
 
 namespace bbook
 {
-    public class clueFind : MonoBehaviour
+    public class clueFind4 : MonoBehaviour
     {
         public cluesSave cluesave;
         private void Start()
         {
-            cluesave.t2 = true;
+            cluesave.t5 = true;
         }
     }
 }

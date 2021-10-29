@@ -7426,6 +7426,45 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4878373922093989, guid: b9f3114608c1ba547883e123e97e4c99, type: 3}
   m_PrefabInstance: {fileID: 1787804452666219052}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1164551919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1164551918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa391be10e077d24ea5f035ac319b654, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cluesave: {fileID: 1750956749}
+--- !u!114 &1164551920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1164551918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61922aa563ac8584783a87fff52fffe2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cluesave: {fileID: 1750956749}
+--- !u!114 &1164551921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1164551918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ba962a5515433b4d8c78062317fb2dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cluesave: {fileID: 1750956749}
 --- !u!1 &1186839644
 GameObject:
   m_ObjectHideFlags: 0
@@ -10340,6 +10379,10 @@ MonoBehaviour:
   pista4: {fileID: 167761390}
   pista5: {fileID: 183168944}
   menu: {fileID: 932263805}
+  t2: 0
+  t3: 0
+  t4: 0
+  t5: 0
   timer: 0
 --- !u!1 &1802043488
 GameObject:
