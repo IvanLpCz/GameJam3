@@ -550,7 +550,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 115088459}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 597011402}
+        m_TargetAssemblyTypeName: bbook.manageBook, Assembly-CSharp
+        m_MethodName: retrocederSospechosos
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &115088459
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1093,7 +1105,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 188748052}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 597011402}
+        m_TargetAssemblyTypeName: bbook.manageBook, Assembly-CSharp
+        m_MethodName: volverIsabela
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &188748052
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1609,7 +1633,7 @@ RectTransform:
   - {fileID: 1921777237}
   - {fileID: 115088457}
   m_Father: {fileID: 635877374}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -1869,7 +1893,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 400696611}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 597011402}
+        m_TargetAssemblyTypeName: bbook.manageBook, Assembly-CSharp
+        m_MethodName: perfilLorenzo
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &400696611
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2190,7 +2226,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 465827955}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 597011402}
+        m_TargetAssemblyTypeName: bbook.manageBook, Assembly-CSharp
+        m_MethodName: volverLorenzo
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &465827955
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2558,7 +2606,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 526208897}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 597011402}
+        m_TargetAssemblyTypeName: bbook.manageBook, Assembly-CSharp
+        m_MethodName: perfilIsabela
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &526208897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2672,6 +2732,75 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 574711560}
   m_CullTransparentMesh: 1
+--- !u!1 &597011400
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 597011401}
+  - component: {fileID: 597011402}
+  m_Layer: 5
+  m_Name: Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &597011401
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 597011400}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 635877374}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &597011402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 597011400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64932663f4ac013438f806595069f0bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sospechosos: {fileID: 1568875932}
+  pistas: {fileID: 1534283039}
+  salir: {fileID: 1369911637}
+  volverAtrasPistas: {fileID: 1884283619}
+  volverAtrasSospechosos: {fileID: 115088458}
+  isabelaBoton: {fileID: 526208896}
+  isabelaVolver: {fileID: 188748051}
+  lorenzoBoton: {fileID: 400696610}
+  lorenzoVolver: {fileID: 465827954}
+  franciscoBoton: {fileID: 709441841}
+  franciscoVolver: {fileID: 998904975}
+  elenaBoton: {fileID: 1559249915}
+  elenaVolver: {fileID: 1020857232}
+  libro: {fileID: 635877373}
+  inicioPagina: {fileID: 1116797843}
+  sospechososPagina: {fileID: 367994818}
+  pistasPagina: {fileID: 851579611}
+  isabelaPagina: {fileID: 1223568266}
+  lorenzoPagina: {fileID: 1030132521}
+  franciscoPagina: {fileID: 2052073943}
+  elenaPagina: {fileID: 1953301068}
 --- !u!1 &610535995
 GameObject:
   m_ObjectHideFlags: 0
@@ -2859,7 +2988,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &635877374
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2871,6 +3000,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 597011401}
   - {fileID: 1116797844}
   - {fileID: 851579612}
   - {fileID: 367994819}
@@ -3081,7 +3211,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 709441842}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 597011402}
+        m_TargetAssemblyTypeName: bbook.manageBook, Assembly-CSharp
+        m_MethodName: perfilFrancisco
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &709441842
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3511,7 +3653,7 @@ RectTransform:
   - {fileID: 932263806}
   - {fileID: 1884283618}
   m_Father: {fileID: 635877374}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -4156,7 +4298,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 998904976}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 597011402}
+        m_TargetAssemblyTypeName: bbook.manageBook, Assembly-CSharp
+        m_MethodName: volverFrancisco
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &998904976
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4277,7 +4431,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1020857233}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 597011402}
+        m_TargetAssemblyTypeName: bbook.manageBook, Assembly-CSharp
+        m_MethodName: volverElena
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1020857233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4349,7 +4515,7 @@ RectTransform:
   - {fileID: 1047563338}
   - {fileID: 1162043621}
   m_Father: {fileID: 635877374}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -4889,7 +5055,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1116797844
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4905,7 +5071,7 @@ RectTransform:
   - {fileID: 1534283038}
   - {fileID: 1369911636}
   m_Father: {fileID: 635877374}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -5688,7 +5854,7 @@ RectTransform:
   - {fileID: 1536531243}
   - {fileID: 1113407180}
   m_Father: {fileID: 635877374}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -6307,7 +6473,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1369911638}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 597011402}
+        m_TargetAssemblyTypeName: bbook.manageBook, Assembly-CSharp
+        m_MethodName: salirLibro
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1369911638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6562,7 +6740,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1534283040}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 597011402}
+        m_TargetAssemblyTypeName: bbook.manageBook, Assembly-CSharp
+        m_MethodName: openPistas
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1534283040
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6879,7 +7069,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1559249916}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 597011402}
+        m_TargetAssemblyTypeName: bbook.manageBook, Assembly-CSharp
+        m_MethodName: perfilElena
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1559249916
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7000,7 +7202,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1568875933}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 597011402}
+        m_TargetAssemblyTypeName: bbook.manageBook, Assembly-CSharp
+        m_MethodName: openSospechosos
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1568875933
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7968,7 +8182,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1884283620}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 597011402}
+        m_TargetAssemblyTypeName: bbook.manageBook, Assembly-CSharp
+        m_MethodName: retrocederPistas
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1884283620
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8237,7 +8463,7 @@ RectTransform:
   - {fileID: 1923911852}
   - {fileID: 723439216}
   m_Father: {fileID: 635877374}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -9009,7 +9235,7 @@ RectTransform:
   - {fileID: 1954263539}
   - {fileID: 499575525}
   m_Father: {fileID: 635877374}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
