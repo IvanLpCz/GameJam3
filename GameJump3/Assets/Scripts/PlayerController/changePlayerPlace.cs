@@ -14,6 +14,7 @@ namespace playerController
         private void OnMouseDown()
         {
             player.transform.position = spot.transform.position;
+            player.transform.rotation = spot.transform.rotation;
         }
     }
 }
