@@ -9,6 +9,7 @@ namespace bbook
         public GameObject pista2, pista3, pista4, pista5, menu;
         public static bool prueba2, prueba3, prueba4, prueba5 = false;
         public bool t2, t3, t4, t5;
+        public bool canDecide = false;
         public float timer = 0;
 
         private void Update()
@@ -56,11 +57,10 @@ namespace bbook
             {
                 prueba5 = true;
             }
-            //if(timer >= 3)
-            //{
-            //    prueba2 = true;
-            //    prueba3 = true;
-            //}
+            if(prueba2 && prueba3 && prueba4 && prueba5)
+            {
+                canDecide = true;
+            }
             Debug.Log(prueba2);
         }
     }

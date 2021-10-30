@@ -7,8 +7,8 @@ namespace bbook
 {
     public class manageBook : MonoBehaviour
     {
-        public Button sospechosos, pistas, salir, volverAtrasPistas, volverAtrasSospechosos, isabelaBoton, isabelaVolver, lorenzoBoton, lorenzoVolver, franciscoBoton, franciscoVolver, elenaBoton, elenaVolver;
-        public GameObject libro, inicioPagina, sospechososPagina, pistasPagina, isabelaPagina, lorenzoPagina, franciscoPagina, elenaPagina;
+        public Button sospechosos, pistas, salir, volverAtrasPistas, volverAtrasSospechosos, isabelaBoton, isabelaVolver, lorenzoBoton, lorenzoVolver, franciscoBoton, franciscoVolver, elenaBoton, elenaVolver, incriminacionVolver;
+        public GameObject libro, inicioPagina, sospechososPagina, pistasPagina, isabelaPagina, lorenzoPagina, franciscoPagina, elenaPagina, menuIncriminacion;
 
         public void openSospechosos()
         {
@@ -73,6 +73,11 @@ namespace bbook
         public void volverElena()
         {
             elenaPagina.SetActive(false);
+            sospechososPagina.SetActive(true);
+        }
+        public void volverAvatares()
+        {
+            menuIncriminacion.SetActive(false);
             sospechososPagina.SetActive(true);
         }
 
