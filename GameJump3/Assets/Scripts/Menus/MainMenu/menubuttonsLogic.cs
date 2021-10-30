@@ -12,7 +12,7 @@ namespace menubuttons
 
         public void StartGame()
         {
-            SceneManager.LoadScene("LivingRoom");
+            SceneManager.LoadScene("Level1");
         }
         public void CreditsScene()
         {
