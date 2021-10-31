@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/CreditosIniciales.unity
     guid: 5e39a3cc422180048837f03f089fd857
   - enabled: 1
+    path: Assets/Scenes/Cinematica.unity
+    guid: e5fef975f5604004bb4bd0bce7d79f75
+  - enabled: 1
     path: Assets/Scenes/Level1.unity
     guid: 75bee2a78e2ffc948a343a2430fdebe3
   - enabled: 1
