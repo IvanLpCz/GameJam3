@@ -8,7 +8,7 @@ namespace bbook
 {
     public class incrimination : MonoBehaviour
     {
-        public GameObject failMessage;
+        public GameObject failMessage, fadeOut;
         public TMPro.TMP_Dropdown sospechosos, arma;
         public Button incriminationButton;
         private bool goccha, miss = false;
@@ -26,7 +26,8 @@ namespace bbook
 
             if (goccha)
             {
-                SceneManager.LoadScene("WinScene");
+                fadeOut.SetActive(true);
+                StartCoroutine(WinScreen());
             }
             if (miss)
             {
@@ -41,6 +42,12 @@ namespace bbook
             yield return new WaitForSecondsRealtime(3);
             failMessage.SetActive(false);
         }
+        IEnumerator WinScreen()
+        {
+            yield return new WaitForSecondsRealtime(2.5f);
+            SceneManager.LoadScene("CreditosFinales");
+        }
+
 
 
     }

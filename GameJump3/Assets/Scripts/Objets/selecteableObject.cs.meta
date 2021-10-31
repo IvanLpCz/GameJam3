@@ -3,7 +3,9 @@ guid: ecca4a324d9a55b4cab9a117fddcbbfb
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - mousecursorIn: {fileID: 2800000, guid: 2d34dcc0916473a4d87ee36a027f5b64, type: 3}
+  - inspeccionableObject: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
