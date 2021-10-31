@@ -683,7 +683,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 7f156b7452f55354092bdb20978bc5c9, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -5706,8 +5706,8 @@ MonoBehaviour:
   breakAnimation: {fileID: 1506401574}
   boxcollider: {fileID: 1506401575}
   triggerloop: {fileID: 743591156}
-  jarron: {fileID: 0}
-  jarronRoto: {fileID: 0}
+  jarron: {fileID: 132129413}
+  jarronRoto: {fileID: 8300000, guid: 7f156b7452f55354092bdb20978bc5c9, type: 3}
 --- !u!1 &1519773239
 GameObject:
   m_ObjectHideFlags: 0
