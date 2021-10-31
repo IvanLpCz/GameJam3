@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 7263243338868928130}
   - component: {fileID: 6008895645804273959}
   - component: {fileID: 8396703709326661101}
+  - component: {fileID: 8350759188910389867}
+  - component: {fileID: 2688741651532674710}
   m_Layer: 0
   m_Name: maceta
   m_TagString: Untagged
@@ -25,13 +27,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8036649315725308984}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: -2.718876, y: -0.0000009536743, z: -5.4999804}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 28.149073, y: 19.274113, z: 19.257}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!33 &6008895645804273959
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -81,3 +83,33 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8350759188910389867
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8036649315725308984}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.19350618, y: 0.17835504, z: 0.3219975}
+  m_Center: {x: 0.011421667, y: -0.005141971, z: 0.16099873}
+--- !u!114 &2688741651532674710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8036649315725308984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecca4a324d9a55b4cab9a117fddcbbfb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mousecursorIn: {fileID: 2800000, guid: 2d34dcc0916473a4d87ee36a027f5b64, type: 3}
+  cursormode: 0
+  hotspot: {x: 0, y: 0}
+  inspeccionableObject: {fileID: 0}
+  book: {fileID: 0}

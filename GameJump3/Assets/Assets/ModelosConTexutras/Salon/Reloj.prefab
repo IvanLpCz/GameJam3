@@ -90,6 +90,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6469281464693846378}
+  - component: {fileID: 770247203}
+  - component: {fileID: 770247202}
   m_Layer: 0
   m_Name: Reloj
   m_TagString: Untagged
@@ -106,9 +108,39 @@ Transform:
   m_GameObject: {fileID: 6096629187083603234}
   m_LocalRotation: {x: 0, y: 0.99927396, z: 0, w: 0.038100142}
   m_LocalPosition: {x: 3.355192, y: 1.731, z: 10.155145}
-  m_LocalScale: {x: 1.7700874, y: 1.7700874, z: 1.7700874}
+  m_LocalScale: {x: 2.9561477, y: 2.956148, z: 2.9561477}
   m_Children:
   - {fileID: 4318230098709780110}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 175.633, z: 0}
+--- !u!65 &770247203
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6096629187083603234}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &770247202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6096629187083603234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecca4a324d9a55b4cab9a117fddcbbfb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mousecursorIn: {fileID: 2800000, guid: 2d34dcc0916473a4d87ee36a027f5b64, type: 3}
+  cursormode: 0
+  hotspot: {x: 0, y: 0}
+  inspeccionableObject: {fileID: 0}
+  book: {fileID: 0}

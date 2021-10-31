@@ -9,22 +9,34 @@ namespace Object
         public Texture2D mousecursorIn;
         public CursorMode cursormode = CursorMode.Auto;
         public Vector2 hotspot = Vector2.zero;
-        public GameObject inspeccionableObject;
+        public GameObject inspeccionableObject, book;
         private void OnMouseOver()
         {
-            Cursor.SetCursor(mousecursorIn, hotspot, cursormode);
-            print(name);
+            if(!book.activeSelf)
+            {
+                Cursor.SetCursor(mousecursorIn, hotspot, cursormode);
+                print(name);
+            }
+           
         }
         private void OnMouseDown()
         {
-            if (Time.timeScale != 0)
+            if (!book.activeSelf)
             {
-                inspeccionableObject.SetActive(true);
+                if (!inspeccionableObject) return;
+                if (Time.timeScale != 0)
+                {
+                    inspeccionableObject.SetActive(true);
+                }
             }
         }
         private void OnMouseExit()
         {
-            Cursor.SetCursor(null, hotspot, cursormode);
+            if (!book.activeSelf)
+            {
+                Cursor.SetCursor(null, hotspot, cursormode);
+            }
+           
         }
     }
 }

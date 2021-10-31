@@ -376,6 +376,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8613711791925419596}
+  - component: {fileID: 3528476366427520757}
   m_Layer: 0
   m_Name: inspecteableObject 2
   m_TagString: Untagged
@@ -401,6 +402,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3528476366427520757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4878373922093989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa391be10e077d24ea5f035ac319b654, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cluesave: {fileID: 0}
 --- !u!1 &1292299695304127349
 GameObject:
   m_ObjectHideFlags: 0

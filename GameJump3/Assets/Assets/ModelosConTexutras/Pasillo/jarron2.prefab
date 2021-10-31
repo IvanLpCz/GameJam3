@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 7251194336944607768}
   - component: {fileID: 2436783549670523786}
   - component: {fileID: 4591618283147905533}
+  - component: {fileID: 8210854147935928086}
+  - component: {fileID: 3510407580482115809}
   m_Layer: 0
   m_Name: jarron2
   m_TagString: Untagged
@@ -25,13 +27,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2582566624593790508}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: -2.22356, y: 0.316, z: -5.285654}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 9.075248, y: 6.200392, z: 6.200392}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!33 &2436783549670523786
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -81,3 +83,33 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &8210854147935928086
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2582566624593790508}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.28348246, y: 0.2834517, z: 0.5139058}
+  m_Center: {x: 0.0000000074505797, y: 0.000000007450584, z: -0.03267983}
+--- !u!114 &3510407580482115809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2582566624593790508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecca4a324d9a55b4cab9a117fddcbbfb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mousecursorIn: {fileID: 2800000, guid: 2d34dcc0916473a4d87ee36a027f5b64, type: 3}
+  cursormode: 0
+  hotspot: {x: 0, y: 0}
+  inspeccionableObject: {fileID: 0}
+  book: {fileID: 0}

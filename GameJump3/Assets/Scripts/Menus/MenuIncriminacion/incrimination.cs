@@ -18,6 +18,7 @@ namespace bbook
             if (sospechosos.value == 1 && arma.value == 3)
             {
                 goccha = true;
+                miss = false;
             }
             else
             {
@@ -41,6 +42,7 @@ namespace bbook
         {
             yield return new WaitForSecondsRealtime(3);
             failMessage.SetActive(false);
+            miss = false;
         }
         IEnumerator WinScreen()
         {
